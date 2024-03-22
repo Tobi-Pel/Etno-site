@@ -14,6 +14,8 @@
 }
 
 .App {
+    position: absolute;
+    z-index: 0;
     width: 100%;
     height: 1024px;
     background-image: url(../src/assets/registriation.jpg);
@@ -32,7 +34,71 @@
 }
 
 .wrap {
-    width: 370px;
-    height: 132px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+
+.collector-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 370px;
+    height: 57px;
+}
+
+.p-1-1 {
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.collector-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.p-1-2 {
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #C5C5C5;
+}
+
+.collector-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 152px;
+    height: 15px;
+    gap: 10px;
+}
+
+.button-white {
+    width: 370px;
+    height: 32px;
+    border-radius: 32px;
+    border: 1px solid #676767;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #141414;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.button-white.sec{
+    display: flex;
+    gap: 5px;
 }

@@ -1,0 +1,13 @@
+.Tick {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #B4B4B4;
+    transition: all .5s;
+}
+
+.Tick.Yes {
+    background-image: url("../../assets/Vector.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
