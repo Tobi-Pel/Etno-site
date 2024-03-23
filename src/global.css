@@ -14,7 +14,7 @@
 		url('./fonts/sunday.svg#sunday') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
-.App {
+.container-1 {
     width: 100%;
     height: 100vh;
     background-image: url(../src/assets/registriation.jpg);
@@ -69,6 +69,13 @@
     font-size: 12px;
     line-height: 14.4px;
     color: #C5C5C5;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.p-1-2:hover {
+    font-size: 14px;
+    color: white;
 }
 
 .collector-3 {
@@ -101,4 +108,95 @@
 .button-white.sec{
     display: flex;
     gap: 5px;
+}
+
+/* Password */
+
+.container-2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../src/assets/password-page.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.inner-container {
+    width: 490px;
+    height: 530px;
+    border-radius: 32px;
+    backdrop-filter: blur(0.7rem);
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p-2-1 {
+    font-family: Sunday;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.p-2-2 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-right: 90%;
+}
+
+.p-2-3 {
+    font-family: "Open-Sans", sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 1.2;
+    margin: 10px 0 10px 0;
+}
+
+.pass-button {
+    background-color: #283825;
+    border: none;
+    border-radius: 32px;
+    width: 100%;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.4s;
+    margin-top: 10px;
+}
+
+.pass-button:hover {
+    background-color: #567246;
+}
+
+.pass-button:active {
+    background-color: #384735;
+    width: 95%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.button-2 {
+    background-color: white;
+    border: none;
+    border-radius: 32px;
+    width: 160px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.4s;
+    margin-top: 10px;
+    color: #283825;
 }

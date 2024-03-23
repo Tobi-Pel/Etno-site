@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import './global.css'
 import { Regestriationpage } from "./pages/Regestriation/Regestriation";
 import LoginPage from "./pages/LoginPage/LoginPage";
+import Password from "./pages/Password/Password";
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/page2" element={<Regestriationpage />} />
+        <Route path="/pagePassword" element={<Password/>} />
       </Routes>
     </>
   );

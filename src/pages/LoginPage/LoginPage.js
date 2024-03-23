@@ -16,29 +16,30 @@ export default function LoginPage() {
 
   return (
     <div className='App'>
-        <BlurWrap>
-        <h1 className="h1-1-1">КИРУУ</h1>
-        <div className="wrap">
-          <div className="collector-1">
-            <p className="p-1-1">Email</p>
-            <Input placeholder={"Enter your email"}></Input>
-          </div>
-          <div className="collector-1">
-            <p className="p-1-1">Password</p>
-            <Input placeholder={"********"}></Input>
-          </div>
-          <div className="collector-2">
-            <div className="collector-3">
-                <Tick onClick={Checker} isClicked={isClicked}/>
-                <p className="p-1-2">Remember for 30 days</p>
+      <div className="container-1">
+          <BlurWrap>
+          <h1 className="h1-1-1">КИРУУ</h1>
+          <div className="wrap">
+            <div className="collector-1">
+              <p className="p-1-1">Email</p>
+              <Input placeholder={"Enter your email"}></Input>
             </div>
-            <a className="p-1-2" href="*">Forgot password</a>
+            <div className="collector-1">
+              <p className="p-1-1">Password</p>
+              <Input placeholder={"********"}></Input>
+            </div>
+            <div className="collector-2">
+              <div className="collector-3">
+                  <Tick onClick={Checker} isClicked={isClicked}/>
+                  <p className="p-1-2">Remember for 30 days</p>
+              </div>
+            <Link to="/pagePassword" className="p-1-2">Forgot password</Link>
+            </div>
           </div>
+            <Link to="/page2" className="button-white">Sign in</Link>
+            <Link to="/page2" className="button-white sec"> <img src={Vector} style={{width: "20px"}}></img> Sign in with Google</Link>
+        </BlurWrap>
         </div>
-          <Link to="/page2" className="button-white">Sign in</Link>
-          <Link to="/page2" className="button-white sec"> <img src={Vector} style={{width: "20px"}}></img> Sign in with Google</Link>
-
-      </BlurWrap>
     </div>
   )
 }
