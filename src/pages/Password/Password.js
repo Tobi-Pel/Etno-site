@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Input from "../../components/Input/Input";
+import { Link } from "react-router-dom";
 
 export default function Password() {
 
@@ -18,8 +19,8 @@ export default function Password() {
                     </p>
                     <button className="pass-button">Отправить</button>
                     <div className="buttons">
-                        <button className="button-2">Войти</button>
-                        <button className="button-2">Регистрация</button>
+                        <Link to="/" className="button-2">Войти</Link>
+                        <Link to="/page2" className="button-2">Регистрация</Link>
                     </div>
                 </div>
             </div>

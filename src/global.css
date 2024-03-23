@@ -73,7 +73,7 @@
     text-decoration: none;
 }
 
-.p-1-2:hover {
+.p-1-2.pass:last-child:hover {
     font-size: 14px;
     color: white;
 }
@@ -174,6 +174,7 @@
 }
 
 .pass-button:hover {
+    cursor: pointer;
     background-color: #567246;
 }
 
@@ -199,4 +200,28 @@
     transition: all 0.4s;
     margin-top: 10px;
     color: #283825;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collector-4 {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.4px;
+}
+
+.p-1-3 {
+    color: #888888;
+}
+
+.p-1-4 {
+    color: #ffffff;
+    text-decoration: none;
 }
