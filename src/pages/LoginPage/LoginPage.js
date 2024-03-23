@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Login from '../../components/Login/Login.js';
+import BlurWrap from '../../components/BlurWrap/BlurWrap.js';
 import Input from '../../components/Input/Input';
 import Tick from '../../components/Tick/Tick';
 import Vector from '../../assets/Vector.png';
@@ -16,7 +16,7 @@ export default function LoginPage() {
 
   return (
     <div className='App'>
-        <Login>
+        <BlurWrap>
         <h1 className="h1-1-1">КИРУУ</h1>
         <div className="wrap">
           <div className="collector-1">
@@ -38,7 +38,7 @@ export default function LoginPage() {
           <Link to="/page2" className="button-white">Sign in</Link>
           <Link to="/page2" className="button-white sec"> <img src={Vector} style={{width: "20px"}}></img> Sign in with Google</Link>
 
-      </Login>
+      </BlurWrap>
     </div>
   )
 }
