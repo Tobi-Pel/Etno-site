@@ -1,13 +1,11 @@
 .Login {
     width: 570px;
     height: 650px;
-    position: absolute;
-    top: 187px;
-    left: 735px;
     border-radius: 32px;
     backdrop-filter: blur(1.5rem);
     border: 2px solid #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 60%;
 }
