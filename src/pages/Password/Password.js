@@ -20,7 +20,7 @@ export default function Password() {
                     <button className="pass-button">Отправить</button>
                     <div className="buttons">
                         <Link to="/" className="button-2">Войти</Link>
-                        <Link to="/page2" className="button-2">Регистрация</Link>
+                        <Link to="/Regestriation" className="button-2">Регистрация</Link>
                     </div>
                 </div>
             </div>

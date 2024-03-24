@@ -225,3 +225,11 @@
     color: #ffffff;
     text-decoration: none;
 }
+
+.wrap.sec {
+    gap: 20px;
+}
+
+.collector-2.reg {
+    margin-top: 10px;
+}

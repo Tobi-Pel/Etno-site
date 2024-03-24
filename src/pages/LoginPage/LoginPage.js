@@ -12,7 +12,6 @@ export default function LoginPage() {
     function Checker() {
       if(isClicked == 0) CheckIsClicked(1);
       else CheckIsClicked(0);
-      console.log(isClicked)
     }
 
   return (
@@ -42,7 +41,7 @@ export default function LoginPage() {
 
             <div className="collector-4">
               <p className="p-1-3">Don’t have on account?</p>
-              <Link to="/page2" className="p-1-4">Sign up for free</Link>
+              <Link to="/Regestriation" className="p-1-4">Sign up for free</Link>
             </div>
         </BlurWrap>
         </div>
