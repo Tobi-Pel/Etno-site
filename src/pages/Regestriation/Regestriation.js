@@ -4,6 +4,7 @@ import BlurWrap from "../../components/BlurWrap/BlurWrap";
 import Input from "../../components/Input/Input";
 import style from "./Regestriation.module.css"
 import Tick from "../../components/Tick/Tick";
+import MainPage from "../MainPage/MainPage.js"
 
 const Regestriationpage = ()=> {
     const [isClicked , CheckIsClicked] = useState(0);
@@ -43,7 +44,7 @@ const Regestriationpage = ()=> {
                 </div>
                 </div>
                 
-                <Link to="/Regestriation" className="button-white">Sign in</Link>
+                <Link to="/MainPage" className="button-white">Sign in</Link>
                 <div className="collector-4">
                     <p className="p-1-3">Already have an account?</p>
                     <Link to="/" className="p-1-4">Sign in</Link>

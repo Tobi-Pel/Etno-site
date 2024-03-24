@@ -36,7 +36,7 @@ export default function LoginPage() {
             <Link to="/pagePassword" className="p-1-2 pass">Forgot password</Link>
             </div>
           </div>
-            <Link to="/" className="button-white">Sign in</Link>
+            <Link to="/MainPage" className="button-white">Sign in</Link>
             <Link to="/" className="button-white sec"> <img src={Vector} style={{width: "20px"}}></img> Sign in with Google</Link>
 
             <div className="collector-4">
