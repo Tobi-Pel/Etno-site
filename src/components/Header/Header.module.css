@@ -33,12 +33,17 @@
 }
 
 .button3 {
-    border: none;
+    border: 3px solid transparent;
     font-size: 16px;
     background-color: transparent;
     text-decoration: none;
     font-family: "Open Sans";
     color: black;
+}
+
+.button3:hover {
+    transition: all .2s;
+    border-bottom: 3px solid #FFB800;
 }
 
 .buttons {

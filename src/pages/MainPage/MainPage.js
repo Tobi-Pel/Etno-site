@@ -1,6 +1,5 @@
 import { Route , Routes , Link } from "react-router-dom";
 import React, {useState} from "react";
-import Header from "../Header/Header";
 import Kalpak2 from "../../components/Svg/Kalpak2Svg/Kalpak2";
 import style from "./MainPage.module.css"
 import CakeSvg from "../../components/Svg/CakeSvg/CakeSvg";
@@ -10,7 +9,8 @@ import WhiteKomuzSvg from "../../components/Svg/WhiteKomuzSvg/WhiteKomuzSvg";
 import Pizza from "../../components/Svg/PizzaSvg/Pizza";
 import Play from "../../components/Svg/PlaySvg/Play";
 import Pasta from "../../components/Svg/PastaSvg/Pasta"
-import Footer from "../Footer/Footer";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 export default function MainPage() {
 

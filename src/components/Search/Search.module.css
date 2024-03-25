@@ -1,0 +1,35 @@
+.Search {
+    width: 470px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SearchInput {
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 32px;
+    background-color: #F5F5F5;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #BABABA;
+    padding: 0 20px;
+}
+
+.SearchInput:active {
+    transition: all .2s;
+    border: 2px solid black;
+}
+
+.image {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 555px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}

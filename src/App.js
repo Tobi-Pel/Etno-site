@@ -5,6 +5,7 @@ import { Regestriationpage } from "./pages/Regestriation/Regestriation";
 import LoginPage from "./pages/LoginPage/LoginPage";
 import Password from "./pages/Password/Password";
 import MainPage from "./pages/MainPage/MainPage";
+import MenuPage from "./pages/MenuPage/MenuPage";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Regestriation" element={<Regestriationpage />} />
         <Route path="/pagePassword" element={<Password/>} />
         <Route path="/MainPage" element={<MainPage/>}/>
+        <Route path="/MenuPage" element={<MenuPage />} />
       </Routes>
     </>
   );

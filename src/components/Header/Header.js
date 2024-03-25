@@ -14,10 +14,10 @@ export default function Header() {
               <p className={style.header}>КЫРГЫЗ ДААМЫ</p>
           </div>
           <div className={style.middle}>
-            <Link to="/MainPage" onClick={() => setUnderline(true)} style={isUnderline ? {textDecoration: "underline"} : {}} className={style.button3}>Башкы Бет</Link>
-            <Link to="/MainPage" className={style.button3}>Меню</Link>
+            <Link to="/MainPage" onClick={() => setUnderline(true)} className={style.button3}>Башкы Бет</Link>
+            <Link to="/MenuPage" className={style.button3}>Меню</Link>
             <Link to="/MainPage" className={style.button3}>Таанымал тамактар</Link>
-            <Link to="/MainPage" onClick={() => setUnderline(true)} style={isUnderline ? {textDecoration: "underline"} : {}} className={style.button3}>Биз жөнүндө</Link>
+            <Link to="/MainPage" onClick={() => setUnderline(true)} className={style.button3}>Биз жөнүндө</Link>
           </div>
           <div className={style.buttons}>
             <Link to="/" className={style.button1}>Кирүү</Link>

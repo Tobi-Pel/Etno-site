@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./Footer.module.css"
 import { Link } from "react-router-dom";
-import MK2 from "../../components/Svg/MainKalpak2Svg/MK2";
-import Icon from "../../components/Svg/IconsSvg/Icon"
+import MK2 from "../Svg/MainKalpak2Svg/MK2";
+import Icon from "../Svg/IconsSvg/Icon"
 
 export default function Footer() {
 
@@ -15,7 +15,7 @@ export default function Footer() {
                 <div className={style.line}></div>
                 <div className={style.box}>
                     <Link to="/MainPage" className={style.button3}>Башкы Бет</Link>
-                    <Link to="/MainPage" className={style.button3}>Меню</Link>
+                    <Link to="/MenuPage" className={style.button3}>Меню</Link>
                     <Link to="/MainPage" className={style.button3}>Таанымал тамактар</Link>
                     <Link to="/MainPage" className={style.button3}>Биз жөнүндө</Link>
                     <Link to="/" className={style.button3}>Кирүү</Link>
