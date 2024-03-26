@@ -12,7 +12,7 @@ export default function TextWithSearch({text}) {
         <div className={style.collector1}>
             <Search />
             <div className={style.favorites}>
-                <img src={star} className={style.image}/>
+                <img src={star} className={style.imageStar}/>
                 <img src={straightVector} className={style.image}/>
             </div>
             <div className={style.traditional}>

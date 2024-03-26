@@ -1,0 +1,19 @@
+.StarButton {
+    transition: all .3s;
+    position: absolute;
+    left: 19px;
+    width: 32px;
+    height: 32px;
+}
+
+.vipIcon {
+    width: 100%;
+    height: 100%;
+    background-color: #CFCFCF;
+}
+
+.vipIconActive {
+    width: 100%;
+    height: 100%;
+    background-color: #FFB800;
+}

@@ -1,0 +1,43 @@
+.AddButton {
+    width: 134.5px;
+    height: 35.87px;
+    border-radius: 0px, 0px, 6px, 0px;
+    border-top: 1px solid #D4D4D6;
+    border-right: 1px solid #D4D4D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.AddButtonActive {
+    width: 134.5px;
+    height: 35.87px;
+    border-radius: 0px, 0px, 6px, 0px;
+    border-top: 1px solid #D4D4D6;
+    border-right: 1px solid #D4D4D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.image {
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+}
+
+.imageReady {
+    width: 14px;
+    height: 14px;
+}
+
+.text {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9.38px;
+    color: #000000;
+}

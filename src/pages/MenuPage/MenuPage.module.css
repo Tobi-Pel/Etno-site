@@ -1,0 +1,9 @@
+.collector1 {
+    margin-top: 38px;
+    margin-left: 135px;
+    display: flex;
+    height: 1160px;
+    width: 1220px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

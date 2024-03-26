@@ -1,0 +1,100 @@
+
+.card {
+    width: 270px;
+    height: 270px;
+    border-radius: 6px;
+    background-color: #F8FAFB;
+    border-radius: 6px;   
+    position: relative;
+}
+
+.foodImage {
+    width: 100%;
+    height: 139px;
+    object-fit: cover;
+}
+
+.collector1 {
+    margin: 12px;
+    margin-bottom: 1px;
+    width: 246px;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.collector2 {
+    display: flex;
+    width: 100%;
+}
+
+.collector3 {
+    width: 135px;
+    height: 31px;
+    border-top-left-radius: 15.5px;
+    border-bottom-left-radius: 15.5px;
+    background-color: #FFE6A5;
+    position: absolute;
+    top: 196px;
+    left: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.HiddenCollector3 {
+    width: 135px;
+    height: 31px;
+    border-top-left-radius: 15.5px;
+    border-bottom-left-radius: 15.5px;
+    background-color: #FFE6A5;
+    position: absolute;
+    top: 196px;
+    left: 135px;
+    display: none;
+}
+
+.h5Black {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9.38px;
+    color: #000000;
+}
+
+.description {
+    font-family: Work Sans;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 7.04px;
+    color: #B1B1B1;
+}
+
+.straightVector{
+    width: 9px;
+    height: 4.5px;
+    object-fit: cover;
+}
+
+.priceStyle {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9.38px;
+    color: #000000;
+}
+
+.counts {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9.38px;
+    color: #414141;
+}
+
+.line {
+    width: 0;
+    height: 24px;
+    border: 0.9px solid #414141;
+}
