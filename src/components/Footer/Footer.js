@@ -16,8 +16,8 @@ export default function Footer() {
                 <div className={style.box}>
                     <Link to="/MainPage" className={style.button3}>Башкы Бет</Link>
                     <Link to="/MenuPage" className={style.button3}>Меню</Link>
-                    <Link to="/MainPage" className={style.button3}>Таанымал тамактар</Link>
-                    <Link to="/MainPage" className={style.button3}>Биз жөнүндө</Link>
+                    <Link to="/FamousFoodPage" className={style.button3}>Таанымал тамактар</Link>
+                    <Link to="/AboutPage" className={style.button3}>Биз жөнүндө</Link>
                     <Link to="/" className={style.button3}>Кирүү</Link>
                     <Link to="/Regestriation"  className={style.button3}>Каталуу</Link>
                 </div>

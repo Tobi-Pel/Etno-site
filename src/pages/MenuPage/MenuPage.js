@@ -15,7 +15,6 @@ import Footer from '../../components/Footer/Footer'
 export default function MenuPage() {
 
   const [images, setImage] = useState([]);
-  const [unrepeatedImages , setUnrepeatedImages] = useState([]);
 
   const prices = [
     "$16.99" ,
@@ -47,8 +46,6 @@ export default function MenuPage() {
 
     setImage(prevState => prevState.slice(1, 17))
   }, [])
-
-  console.log(images)
 
 
   return (
