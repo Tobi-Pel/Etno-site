@@ -1,7 +1,7 @@
 
 .card {
-    width: 270px;
-    height: 270px;
+    width: 300px;
+    height: 300px;
     border-radius: 6px;
     background-color: #F8FAFB;
     border-radius: 6px;   
@@ -37,7 +37,7 @@
     background-color: #FFE6A5;
     position: absolute;
     top: 196px;
-    left: 135px;
+    left: 165px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -58,16 +58,16 @@
 .h5Black {
     font-family: Work Sans;
     font-weight: 500;
-    font-size: 8px;
-    line-height: 9.38px;
+    font-size: 10px;
+    line-height: 11.38px;
     color: #000000;
 }
 
 .description {
     font-family: Work Sans;
     font-weight: 300;
-    font-size: 6px;
-    line-height: 7.04px;
+    font-size: 8px;
+    line-height: 9.04px;
     color: #B1B1B1;
 }
 

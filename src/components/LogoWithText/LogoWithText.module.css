@@ -1,0 +1,54 @@
+.LogoWithText {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.logo {
+    width: 230px;
+    height: 230px;
+}
+
+.collector1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+    margin-right: 180px;
+}
+
+.p1 {
+    font-family: Sunday;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.collector2 {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.yellowLine {
+    width: 0;
+    height: 112px;
+    border: 1.6px solid #FFB800;
+}
+
+.description {
+    width: 741px;
+    height: 132px;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.8px;
+}
+
+.logo2 {
+    width: 132px;
+    height: 230px;
+}

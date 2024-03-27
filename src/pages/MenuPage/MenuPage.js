@@ -3,24 +3,14 @@ import Header from '../../components/Header/Header'
 import style from './MenuPage.module.css'
 import TextWithSearch from '../../components/TextWithSearch/TextWithSearch'
 import Card from '../../components/Card/Card'
-// import food1 from '../../assets/food/food1.png'
 import { useState } from 'react'
 import { useEffect } from 'react'
-// import food2 from '../../assets/food/food2.png'
-// import food3 from '../../assets/food/food3.png'
-// import food4 from '../../assets/food/food4.png'
-// import food5 from '../../assets/food/food5.png'
-// import food6 from '../../assets/food/food6.png'
-// import food7 from '../../assets/food/food7.png'
-// import food8 from '../../assets/food/food8.png'
-// import food9 from '../../assets/food/food9.png'
-// import food10 from '../../assets/food/food10.png'
-// import food11 from '../../assets/food/food11.png'
-// import food12 from '../../assets/food/food12.png'
-// import food13 from '../../assets/food/food13.png'
-// import food14 from '../../assets/food/food14.png'
-// import food15 from '../../assets/food/food15.png'
-// import food16 from '../../assets/food/food16.png'
+import PunCakeSvg from '../../components/Svg/PunCakeSvg/PunCakeSvg'
+import PotatoFree from '../../components/Svg/PotatoFree/PotatoFree'
+import LineWithText from '../../components/LineWithText/LineWithText'
+import Slider from '../../components/Slider/Slider'
+import LogoWithText from '../../components/LogoWithText/LogoWithText'
+import Footer from '../../components/Footer/Footer'
 
 export default function MenuPage() {
 
@@ -28,6 +18,7 @@ export default function MenuPage() {
   const [unrepeatedImages , setUnrepeatedImages] = useState([]);
 
   const prices = [
+    "$16.99" ,
     "$16.99" ,
     "$16.99" ,
     "$16.99" ,
@@ -69,6 +60,13 @@ export default function MenuPage() {
               return <Card foodImg={image.url} price={prices[image.id]}/>
           })}
         </div>
+        <PunCakeSvg className={style.PunCakeSvg}/>
+        <PotatoFree className={style.PotatoFree}/>
+        <LineWithText>
+          <Slider />
+        </LineWithText>
+        <LogoWithText />
+        <Footer />
     </div>
   )
 }

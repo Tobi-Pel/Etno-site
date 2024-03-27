@@ -1,6 +1,6 @@
 .AddButton {
-    width: 134.5px;
-    height: 35.87px;
+    width: 50%;
+    height: 65.87px;
     border-radius: 0px, 0px, 6px, 0px;
     border-top: 1px solid #D4D4D6;
     border-right: 1px solid #D4D4D6;
@@ -12,8 +12,8 @@
 }
 
 .AddButtonActive {
-    width: 134.5px;
-    height: 35.87px;
+    width: 50%;
+    height: 65.87px;
     border-radius: 0px, 0px, 6px, 0px;
     border-top: 1px solid #D4D4D6;
     border-right: 1px solid #D4D4D6;
@@ -37,7 +37,7 @@
 .text {
     font-family: Work Sans;
     font-weight: 500;
-    font-size: 8px;
+    font-size: 10px;
     line-height: 9.38px;
     color: #000000;
 }
