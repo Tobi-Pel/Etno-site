@@ -1,0 +1,56 @@
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+
+    button {
+        background-color: transparent;
+        border: none;
+    }
+}
+
+.scrollImages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.whiteBackground {
+    position: absolute;
+    top: 1323px;
+    width: 1240px;
+    height: 227px;
+    display: flex;
+    flex-direction: row;
+    gap: 1060px;
+}
+
+.WBL {
+    width: 40px;
+    background: linear-gradient(to left, transparent, rgb(255, 255, 255))
+}
+
+.WBR {
+    width: 40px;
+    background: linear-gradient(to right, transparent, rgb(255, 255, 255))
+}
+
+.soda {
+    width: 270px;
+    height: 227px;
+    object-fit: cover;
+}
+
+.sillyPizza {   
+    width: 400px;
+    height: 227px;
+    object-fit: cover;
+}
+
+.table {
+    width: 270px;
+    height: 227px;
+    object-fit: cover;
+}

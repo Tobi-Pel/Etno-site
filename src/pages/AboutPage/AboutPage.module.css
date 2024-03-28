@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxTop {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 0;
+}
+
+.boxTopInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.header {
+    font-family: "Sunday";
+    font-size: 36px;
+}
+
+.text1 {
+    width: 700px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.GCP {
+    position: absolute;
+    right: 300px;
+}
+
+.potatoFree {
+    width: 10px;
+    height: 10px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 200px;
+    gap: 90px;
+    align-items: center;
+}
+
+.free {
+    position: absolute; 
+    top: 750px;
+    left: 1390px;
+
+}
+
+.video {
+    width: 470px;
+    height: 330px;
+    background-image: url(../../assets/cafe.jpeg);
+    object-fit: cover;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header1 {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text2 {
+    width: 429px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.4;
+}
+
+.PunCakeSvg {
+    margin-right: 1400px;
+    margin-top: 40px;
+}
+
+.photos {
+    padding: 40px 110px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.photo1 {
+    width: 270px;
+    height: 345px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    gap: 40px;
+    align-items: center;
+}
+
+.kumuz {
+    width: 270px;
+    height: 259px;
+    background-image: url(../../assets/kumuz.jpg);
+    object-fit: cover;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.textBox2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.header3 {
+    width: 450px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.text3 {
+    width: 770px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
