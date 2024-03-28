@@ -146,7 +146,7 @@
 }
 
 .box1 {
-    background-image: url(../../assets/gallery-first.jpeg);
+    background-image: url(../../assets/gallery/gallery-first.jpeg);
     width: 370px;
     height: 233px;
     object-fit: cover;
@@ -162,7 +162,7 @@
 }
 
 .box2 {
-    background-image: url(../../assets/gallery-second.jpeg);
+    background-image: url(../../assets/gallery/gallery-second.jpeg);
     width: 370px;
     height: 233px;
     object-fit: cover;
@@ -177,7 +177,7 @@
 }
 
 .box3 {
-    background-image: url(../../assets/gallery-third.jpeg);
+    background-image: url(../../assets/gallery/gallery-third.jpeg);
     width: 370px;
     height: 233px;
     object-fit: cover;
@@ -192,7 +192,7 @@
 }
 
 .box4 {
-    background-image: url(../../assets/gallery-fourth.jpeg);
+    background-image: url(../../assets/gallery/gallery-fourth.jpeg);
     width: 370px;
     height: 233px;
     object-fit: cover;
@@ -207,7 +207,7 @@
 }
 
 .box5 {
-    background-image: url(../../assets/gallery-fifth.jpeg);
+    background-image: url(../../assets/gallery/gallery-fifth.jpeg);
     width: 370px;
     height: 233px;
     object-fit: cover;
@@ -222,7 +222,7 @@
 }
 
 .box6 {
-    background-image: url(../../assets/gallery-sixth.jpeg);
+    background-image: url(../../assets/gallery/gallery-sixth.jpeg);
     width: 370px;
     height: 233px;
     object-fit: cover;

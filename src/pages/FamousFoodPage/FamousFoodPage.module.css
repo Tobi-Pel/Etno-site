@@ -1,13 +1,11 @@
 .bigImage {
-    width: 1300px;
+    width: 1200px;
     height: 400px;
     margin-left: 135px;
     object-fit: contain;
 }
 
-.PotatoFree {
-    width: 112.24px;
-    height: 173.11px;
+.Free {
     position: absolute;
     top: 850px;
     left: 94%;

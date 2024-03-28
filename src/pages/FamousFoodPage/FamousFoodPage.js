@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header'
 import style from './FamousFoodPage.module.css'
 import image from '../../assets/assets-for-famous/famous-image.png'
 import TextWithSearch from '../../components/TextWithSearch/TextWithSearch'
-import PotatoFree from '../../components/Svg/PotatoFree/PotatoFree'
+import Free from '../../components/Svg/Free/Free'
 import Card from '../../components/Card/Card'
 import { useState , useEffect } from 'react'
 import LineWithText from '../../components/LineWithText/LineWithText'
@@ -51,7 +51,7 @@ export default function FamousFoodPage() {
         <Header />
         <img src={image} className={style.bigImage}/>
         <TextWithSearch text={'таанымал тамактар'}/>
-        <PotatoFree className={style.PotatoFree}/>
+        <div className={style.Free}><Free/></div>
         <div className={style.collector1}>
           {images.map(image => {
               return <Card foodImg={image.url} price={prices[image.id]}/>
