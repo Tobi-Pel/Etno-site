@@ -3,12 +3,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .logo {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
 }
 
 .collector1 {
@@ -16,7 +16,7 @@
     flex-direction: column;
     gap: 25px;
     align-items: start;
-    margin-right: 180px;
+    margin-right: 150px;
 }
 
 .p1 {
@@ -49,6 +49,6 @@
 }
 
 .logo2 {
-    width: 132px;
-    height: 230px;
+    width: 102px;
+    height: 200px;
 }

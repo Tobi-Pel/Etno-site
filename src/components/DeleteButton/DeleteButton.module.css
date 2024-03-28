@@ -1,6 +1,6 @@
 .DeleteButton {
     width: 50%;
-    height: 65.87px;
+    height: 35.87px;
     border-radius: 0px, 0px, 6px, 0px;
     border-top: 1px solid #D4D4D6;
     display: flex;
@@ -15,7 +15,7 @@
 
 .DeleteButtonActive {
     width: 50%;
-    height: 65.87px;
+    height: 35.87px;
     border-radius: 0px, 0px, 6px, 0px;
     border-top: 1px solid #D4D4D6;
     display: flex;
